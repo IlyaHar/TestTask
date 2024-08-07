@@ -1,0 +1,42 @@
+@media (max-width: 520px) {
+    .cards  {
+        padding-bottom: 40px;
+    }
+
+    .cards__title {
+        padding-top: 40px;
+    }
+
+    .cards__row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        width: 396px;
+        height: 216px;
+        margin-top: 20px;
+    }
+
+    .card__title {
+        font-size: 20px;;
+    }
+
+    .card__text {
+        width: 316px;
+        font-size: 14px;
+    }
+
+    @media (max-width: 415px) {
+        .card {
+            width: 330px;
+            height: 216px;
+            margin-top: 20px;
+        }
+
+        .card__text {
+            width: 280px;
+            font-size: 14px;
+        }
+    }
+}

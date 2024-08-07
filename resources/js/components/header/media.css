@@ -1,0 +1,32 @@
+@media (max-width: 780px) {
+    .header__row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__actions {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 532px) {
+    .header__menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__nav {
+        margin-top: 20px;
+    }
+
+    .header__nav ul {
+        margin-left: 0;
+    }
+
+    @media (max-width: 412px) {
+        .container__header {
+            padding: 0 0;
+        }
+    }
+}

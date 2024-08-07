@@ -1,0 +1,14 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    background: #F5F9FE;
+    color: #2D2E2E;
+}
+
+.container {
+    max-width: 1620px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
